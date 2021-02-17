@@ -6,7 +6,7 @@ namespace Panacea\Services;
 
 class SmsService
 {
-    public static function sms(
+    public function sms(
         string $to,
         string $message,
         ?int $report_mask = 19,

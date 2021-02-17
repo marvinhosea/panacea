@@ -6,7 +6,7 @@ namespace Panacea\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class SMS extends Facade
+class PSMS extends Facade
 {
     protected static function getFacadeAccessor()
     {

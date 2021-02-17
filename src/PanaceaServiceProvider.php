@@ -16,7 +16,12 @@ class PanaceaServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(SmsService::class, function (){
+        $this->registerFacades();
+    }
+
+    private function registerFacades()
+    {
+        $this->app->bind('pSMS', function (){
             return new SmsService();
         });
     }
