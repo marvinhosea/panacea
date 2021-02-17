@@ -37,7 +37,7 @@ class Engine
         ?string $auto_detect_encoding = null)
     {
         try {
-            $response = $this->core->message_send($to, $message);
+            $response = $this->core->message_send($to, $message, $report_mask, $report_url, $charset, $data_coding, $message_class, $auto_detect_encoding);
             if ($response['status'] !== 1){
                 throw new PanaceaSmsError($response['message']);
             }

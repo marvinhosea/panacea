@@ -16,7 +16,6 @@ class SmsService
     }
     public function sms(string $to, string $message)
     {
-        $this->engine->sendSMS($to, $message);
-        return 'demo';
+        return $this->engine->sendSMS($to, $message);
     }
 }
