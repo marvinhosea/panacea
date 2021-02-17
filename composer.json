@@ -11,7 +11,8 @@
     ],
     "homepage": "https://github.com/marvinhosea/panacea",
     "require": {
-        "php": "^7.0"
+        "php": "^7.1",
+      "ext-curl": "*"
     },
     "license": "MIT",
     "authors": [
