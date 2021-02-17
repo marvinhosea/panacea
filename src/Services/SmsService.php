@@ -4,17 +4,17 @@
 namespace Panacea\Services;
 
 
+use Panacea\Core\Engine;
+
 class SmsService
 {
-    public function sms(
-        string $to,
-        string $message,
-        ?int $report_mask = 19,
-        ?string $report_url = null,
-        ?string $charset = null,
-        ?string $data_coding = null,
-        ?int $message_class = -1,
-        ?string $auto_detect_encoding = null)
+    protected $engine;
+
+    public function __construct()
+    {
+        $this->engine = Engine::init();
+    }
+    public function sms(string $to, string $message)
     {
         return $message;
     }
