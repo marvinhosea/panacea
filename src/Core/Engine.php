@@ -4,6 +4,9 @@
 namespace Panacea\Core;
 
 
+use Panacea\Exception\NotReachable;
+use Panacea\Exception\PanaceaSmsError;
+
 class Engine
 {
     protected $core;
@@ -33,7 +36,16 @@ class Engine
         ?int $message_class = -1,
         ?string $auto_detect_encoding = null)
     {
-        $this->core->message_send($to, $message);
+        try {
+            $response = $this->core->message_send($to, $message);
+            if ($response['status'] !== 1){
+                throw new PanaceaSmsError($response['message']);
+            }
+
+            return $response;
+        } catch (\Exception $exception){
+            throw new NotReachable();
+        }
     }
 
 }

@@ -41,7 +41,7 @@ class PanaceaAPI {
 
     function debug($str, $nl = true) {
         if($this->debug) {
-            echo $str;
+//            echo $str;
             if($nl) {
                 echo "\n";
             }
