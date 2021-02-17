@@ -4,6 +4,8 @@
 namespace Panacea\Core;
 
 
+use ReflectionMethod;
+
 class PanaceaAPI {
 
     var $url = "http://api.panaceamobile.com/json";
