@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +17,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,6 +128,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oZy4ETmoMw8rIfi9xewomlcbOE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -136,6 +142,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -145,6 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613508213916</updated>
       <workItem from="1613508215312" duration="4198000" />
+      <workItem from="1613558276159" duration="10334000" />
     </task>
     <servers />
   </component>
@@ -152,10 +164,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="636" y="187" width="717" height="728" key="NewPhpClassDialog" timestamp="1613557627373">
+    <state x="641" y="27" width="619" height="1049" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613563380341">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="636" y="187" width="717" height="728" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1613557627373" />
+    <state x="641" y="27" width="619" height="1049" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1613563380341" />
+    <state x="636" y="187" width="807" height="728" key="NewPhpClassDialog" timestamp="1613565575353">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="636" y="187" width="807" height="728" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1613565575353" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1613558102568">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
