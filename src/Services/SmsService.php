@@ -15,10 +15,10 @@ class SmsService
     {
         $this->engine = Engine::init();
     }
-    public function sms(string $to, string $message)
+    public function sms(string $message, string $from, string $to)
     {
         try {
-            return $this->engine->sendSMS($to, $message);
+            return $this->engine->sendSMS($to, $message, $from);
         } catch (NotReachable $e) {
             throw  new \Exception($e->getMessage());
         }
